@@ -1,5 +1,4 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
@@ -10,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity"
-        android:background="@color/blue">
+        android:background="@color/darkblue">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -25,8 +24,8 @@
                     android:id="@+id/title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/cerro"
-                    android:textColor="@color/red"
+                    android:text="@string/chelsea"
+                    android:textColor="@color/white"
                     android:gravity="center_horizontal"
                     android:textSize="40sp"
                     android:layout_marginTop="20dp"/>
@@ -36,13 +35,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/title"
-                    android:text="@string/players"
+                    android:text="@string/goalkeeper"
                     android:textSize="30sp"
-                    android:textColor="@color/red"
-                    android:layout_margin="20dp"/>
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="50dp"/>
 
                 <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/players"
+                    android:id="@+id/keeper"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/templates"
@@ -53,14 +54,16 @@
                     android:id="@+id/showcase"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/players"
-                    android:text="@string/showcase"
+                    android:layout_below="@id/keeper"
+                    android:text="@string/defender"
                     android:textSize="30sp"
-                    android:textColor="@color/red"
-                    android:layout_margin="20dp"/>
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="50dp"/>
 
                 <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/titles"
+                    android:id="@+id/defenders"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/showcase"

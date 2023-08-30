@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Players</string>
-    <string name="cerro">Cerro Porteño</string>
+    <string name="chelsea">Chelsea</string>
     <string name="players">Players</string>
-    <string name="showcase">Titles</string>
+    <string name="goalkeeper">Goalkeepers</string>
+    <string name="defender">Defenders</string>
     <string name="name">Name</string>
     <string name="birthdate">Birth Date</string>
 </resources>
