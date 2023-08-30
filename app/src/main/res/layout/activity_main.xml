@@ -70,6 +70,26 @@
                     android:layout_margin="20dp"
                     android:orientation="horizontal"/>
 
+                <TextView
+                    android:id="@+id/midfielder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/defenders"
+                    android:text="@string/midfielder"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="50dp"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/midfielders"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/midfielder"
+                    android:layout_margin="20dp"
+                    android:orientation="horizontal"/>
+
             </RelativeLayout>
         </ScrollView>
     </RelativeLayout>

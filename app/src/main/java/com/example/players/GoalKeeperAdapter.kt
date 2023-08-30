@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.players.databinding.GoalkeeperBinding
+import com.example.players.databinding.GoalkeepersBinding
 
 class GoalKeeperAdapter: ListAdapter<GoalKeeper, GoalKeeperAdapter.GoalKeeperViewHolder>(DiffCallBack){
 
@@ -21,7 +21,7 @@ class GoalKeeperAdapter: ListAdapter<GoalKeeper, GoalKeeperAdapter.GoalKeeperVie
 
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GoalKeeperAdapter.GoalKeeperViewHolder {
-        val binding = GoalkeeperBinding.inflate(LayoutInflater.from(parent.context))
+        val binding = GoalkeepersBinding.inflate(LayoutInflater.from(parent.context))
         return GoalKeeperViewHolder(binding)
     }
 
@@ -30,7 +30,7 @@ class GoalKeeperAdapter: ListAdapter<GoalKeeper, GoalKeeperAdapter.GoalKeeperVie
         holder.bind(player)
     }
 
-    inner class GoalKeeperViewHolder(private val binding: GoalkeeperBinding):
+    inner class GoalKeeperViewHolder(private val binding: GoalkeepersBinding):
         RecyclerView.ViewHolder(binding.root){
             fun bind(person: GoalKeeper){
                 binding.namekeeper.text = person.name

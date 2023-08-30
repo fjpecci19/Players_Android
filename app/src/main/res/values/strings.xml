@@ -3,6 +3,7 @@
     <string name="players">Players</string>
     <string name="goalkeeper">Goalkeepers</string>
     <string name="defender">Defenders</string>
+    <string name="midfielder">Midfielders</string>
     <string name="name">Name</string>
     <string name="birthdate">Birth Date</string>
 </resources>
