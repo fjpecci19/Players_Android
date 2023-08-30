@@ -24,11 +24,11 @@
                 android:id="@+id/player"
                 android:layout_width="360dp"
                 android:layout_height="240dp"
-                android:src="@drawable/ic_launcher_foreground"
-                android:scaleType="fitCenter"
-                android:importantForAccessibility="no"
                 android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"/>
+                android:layout_centerHorizontal="true"
+                android:importantForAccessibility="no"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_foreground" />
 
             <TextView
                 android:id="@+id/name"
