@@ -31,7 +31,7 @@
                     android:layout_marginTop="20dp"/>
 
                 <TextView
-                    android:id="@+id/templates"
+                    android:id="@+id/goalkeepers"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/title"
@@ -46,12 +46,12 @@
                     android:id="@+id/keeper"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/templates"
+                    android:layout_below="@id/goalkeepers"
                     android:layout_margin="20dp"
                     android:orientation="horizontal"/>
 
                 <TextView
-                    android:id="@+id/showcase"
+                    android:id="@+id/defender"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/keeper"
@@ -66,7 +66,7 @@
                     android:id="@+id/defenders"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/showcase"
+                    android:layout_below="@id/defender"
                     android:layout_margin="20dp"
                     android:orientation="horizontal"/>
 
