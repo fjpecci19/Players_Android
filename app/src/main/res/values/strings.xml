@@ -3,4 +3,6 @@
     <string name="cerro">Cerro Porteño</string>
     <string name="players">Players</string>
     <string name="showcase">Titles</string>
+    <string name="name">Name</string>
+    <string name="birthdate">Birth Date</string>
 </resources>

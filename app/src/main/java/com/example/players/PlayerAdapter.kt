@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.example.players.databinding.PlayersBinding
 
 class PlayerAdapter: ListAdapter<Player, PlayerAdapter.PlayerViewHolder>(DiffCallBack){
@@ -33,7 +34,11 @@ class PlayerAdapter: ListAdapter<Player, PlayerAdapter.PlayerViewHolder>(DiffCal
         RecyclerView.ViewHolder(binding.root){
             fun bind(person: Player){
                 binding.name.text = person.name
-                binding.description.text = person.description
+                binding.date.text = person.date
+                Glide.with(binding.player.context)
+                    .load(person.picUrl)
+                    .override(360, 240)
+                    .into(binding.player)
             }
     }
 }
