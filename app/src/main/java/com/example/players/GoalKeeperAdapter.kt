@@ -35,6 +35,7 @@ class GoalKeeperAdapter: ListAdapter<GoalKeeper, GoalKeeperAdapter.GoalKeeperVie
             fun bind(person: GoalKeeper){
                 binding.namekeeper.text = person.name
                 binding.datekeeper.text = person.date
+                binding.countrykeeper.text = person.country
                 Glide.with(binding.keeper.context)
                     .load(person.picUrl)
                     .override(1280, 720)

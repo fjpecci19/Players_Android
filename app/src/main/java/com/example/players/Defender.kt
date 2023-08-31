@@ -1,3 +1,3 @@
 package com.example.players
 
-data class Defender(val picUrl: String, val name: String, val date: String)
+data class Defender(val picUrl: String, val name: String, val date: String, val country: String)

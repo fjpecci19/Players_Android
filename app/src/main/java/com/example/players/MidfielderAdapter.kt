@@ -35,6 +35,7 @@ class MidfielderAdapter: ListAdapter<Midfielder, MidfielderAdapter.MidfielderVie
         fun bind(person: Midfielder){
             binding.namemidfielder.text = person.name
             binding.datemidfielder.text = person.date
+            binding.countrymidfielder.text = person.country
             Glide.with(binding.midfielder.context)
                 .load(person.picUrl)
                 .override(1280, 720)

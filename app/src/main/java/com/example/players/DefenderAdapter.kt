@@ -35,6 +35,7 @@ class DefenderAdapter: ListAdapter<Defender, DefenderAdapter.DefenderViewHolder>
         fun bind(person: Defender){
             binding.namedefender.text = person.name
             binding.datedefender.text = person.date
+            binding.countrydefender.text = person.country
             Glide.with(binding.defender.context)
                 .load(person.picUrl)
                 .override(1280, 720)

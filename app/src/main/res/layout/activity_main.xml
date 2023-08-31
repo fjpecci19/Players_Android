@@ -31,10 +31,24 @@
                     android:layout_marginTop="20dp"/>
 
                 <TextView
-                    android:id="@+id/goalkeepers"
+                    android:id="@+id/plantel"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/title"
+                    android:text="@string/players"
+                    android:textSize="35sp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:id="@+id/goalkeepers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/plantel"
                     android:text="@string/goalkeeper"
                     android:textSize="30sp"
                     android:textColor="@color/white"
