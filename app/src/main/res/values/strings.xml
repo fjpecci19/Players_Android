@@ -4,6 +4,8 @@
     <string name="goalkeeper">Goalkeepers</string>
     <string name="defender">Defenders</string>
     <string name="midfielder">Midfielders</string>
+    <string name="forward">Forwards</string>
+    <string name="manager">Head Coach</string>
     <string name="name">Name</string>
     <string name="birthdate">Birth Date</string>
     <string name="country">Nacionality</string>
